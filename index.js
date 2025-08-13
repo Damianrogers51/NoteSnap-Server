@@ -1,3 +1,5 @@
+console.log('Starting server...');
+
 const io = require('socket.io')(process.env.PORT, {
     cors: {
         origin: ['http://localhost:3000', 'https://note-snap-psi.vercel.app'],
